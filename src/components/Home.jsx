@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import hero from '../assets/images/hero.svg';
 
 const Home = () => {
@@ -7,20 +8,20 @@ const Home = () => {
         <div className="row">
           <div className="col-sm-6">
             <div className="hero-content">
-              <h3>Welcome to</h3>
+              <h3>Welcome to,</h3>
               <h1>Fix Your First Bug</h1>
               <p>
-                A Open Source Project, to help newbie or beginner who wants to
+                A Open Source Project, to help a newbie or beginner who wants to
                 contribute in Open Source but don't know how to do it. Here he
                 or she can start contributing as a demo contribution.
               </p>
-              <a href="/" className="btn btn-dark px-4 py-2">
+              <Link to="/select" className="btn btn-dark px-4 py-2">
                 Start Fixing
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-sm-6">
-            <div className="hero-img p-4">
+            <div className="hero-img p-5">
               <img src={hero} alt="hero" />
             </div>
           </div>
