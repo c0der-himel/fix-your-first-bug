@@ -1,0 +1,13 @@
+/* === Google Font === */
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/* === Global CSS === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Yusei Magic', sans-serif;
+}
