@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import OddNumbers from './components/OddNumbers';
 import SelectPage from './components/SelectPage';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
           </Route>
           <Route path="/select">
             <SelectPage />
+          </Route>
+          <Route path="/odd-numbers">
+            <OddNumbers />
           </Route>
         </Switch>
         <Footer />

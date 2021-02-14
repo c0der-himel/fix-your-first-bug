@@ -3,10 +3,10 @@ import bug from '../assets/images/bug.svg';
 
 const Navbar = () => {
   return (
-    <div classNameName="container-fluid">
-      <div classNameName="row">
-        <div classNameName="col-sm">
-          <nav className="navbar navbar-expand-lg navbar-light bg-white rounded-3 px-5 fixed-top">
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-sm">
+          <nav className="navbar navbar-expand-lg navbar-light rounded-3 px-5 fixed-top">
             <div className="container-fluid">
               <Link className="navbar-brand" to="/">
                 <img src={bug} alt="bug" className="bug-img me-2" />
