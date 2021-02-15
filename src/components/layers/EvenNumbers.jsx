@@ -23,6 +23,9 @@ const EvenNumbers = () => {
           <div className="col-sm-12">
             <div className="number-title">
               <h1>Even Numbers</h1>
+              <p className="lead">
+                Even numbers are highlighted in Black color
+              </p>
               <hr />
             </div>
           </div>

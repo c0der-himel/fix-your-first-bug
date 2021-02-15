@@ -23,6 +23,7 @@ const OddNumbers = () => {
           <div className="col-sm-12">
             <div className="number-title">
               <h1>Odd Numbers</h1>
+              <p className="lead">Odd numbers are highlighted in Black color</p>
               <hr />
             </div>
           </div>
@@ -33,7 +34,7 @@ const OddNumbers = () => {
                   className={
                     oddNumber(item)
                       ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-dark text-light'
-                      : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black'
+                      : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-1 text-black-50'
                   }
                   key={index}
                 >

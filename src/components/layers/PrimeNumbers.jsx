@@ -6,7 +6,7 @@ const PrimeNumbers = () => {
 
   const generateNumbers = () => {
     const number = [];
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 0; i <= 100; i++) {
       number.push(i);
     }
     setNumbers(number);
@@ -23,6 +23,9 @@ const PrimeNumbers = () => {
           <div className="col-sm-12">
             <div className="number-title">
               <h1>Prime Numbers</h1>
+              <p className="lead">
+                Prime numbers are highlighted in Black color
+              </p>
               <hr />
             </div>
           </div>
@@ -33,7 +36,7 @@ const PrimeNumbers = () => {
                   className={
                     primeNumber(item)
                       ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-dark text-light'
-                      : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black'
+                      : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-1 text-black-50'
                   }
                   key={index}
                 >
