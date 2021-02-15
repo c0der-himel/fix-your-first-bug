@@ -1,5 +1,66 @@
 # fix-your-first-bug
 
-> A Open Source Project, to help newbie or beginner who wants to contribute in Open Source but don't know how to do. Here he or she can start contributing as a demo contribution.
+> 🤩 A Open Source Project, to 🤝 help a newbie or beginner who wants to contribute in 🚀 Open Source but don't know how to do. Here he or she can start contributing as a demo contribution. 🤩
 
-Start your first contribution [Start](https://relaxed-hopper-ce959a.netlify.app/)
+Before you start, go through this instruction below.
+
+#### _Read this in [other languages](translations/Translations.md)._
+
+<kbd>[<img title="বাংলা" alt="বাংলা" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/bd.svg" width="22">](translations/README.bn.md)</kbd>
+
+# Your First Contribution
+
+This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
+
+<img align="right" width="300" src="./src/assets/images/README/fork.png" alt="fork repository" />
+
+## Fork this repository
+
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+## Clone the repository
+
+<img align="right" width="300" src="./src/assets/images/README/clone1.png" alt="clone repository" />
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied"
+```
+
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+
+<img align="right" width="300" src="./src/assets/images/README/clone2.png" alt="copy URL to clipboard" />
+
+For example:
+
+```
+git clone https://github.com/c0der-himel/fix-your-first-bug.git
+```
+
+where `this-is-you` is your GitHub username. Here you're copying the contents of the fix-your-first-bug repository on GitHub to your computer.
+
+## Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd fix-your-first-bug
+```
+
+Now create a branch using the `git checkout` command:
+
+```
+git checkout -b your-new-branch-name
+```
+
+For example:
+
+```
+git checkout -b bug-fix
+```
+
+(You can name the brach what ever you want. It doesn't matter.)

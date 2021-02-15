@@ -15,6 +15,7 @@ const OddNumbers = () => {
     generateNumbers();
   }, []);
 
+  // fix your first bug
   const oddNumber = (x) => {
     if (x % 2 === 0) {
       return true;

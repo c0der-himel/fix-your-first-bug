@@ -15,6 +15,7 @@ const PrimeNumbers = () => {
     generateNumbers();
   }, []);
 
+  // fix your first bug
   const primeNumber = (x) => {
     const n = Math.floor(Math.sqrt(x));
     for (let i = 2; i <= n; i++) {

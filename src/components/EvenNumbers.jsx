@@ -15,6 +15,7 @@ const EvenNumbers = () => {
     generateNumbers();
   }, []);
 
+  // fix your first bug
   const evenNumber = (x) => {
     if (x % 2 !== 0) {
       return true;
