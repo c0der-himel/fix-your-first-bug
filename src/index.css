@@ -53,3 +53,13 @@ body {
 .OddNumbers {
   padding: 125px 0;
 }
+
+/* === Even Numbers === */
+.EvenNumbers {
+  padding: 125px 0;
+}
+
+/* === Prime Numbers === */
+.PrimeNumbers {
+  padding: 125px 0;
+}

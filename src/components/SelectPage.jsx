@@ -28,14 +28,24 @@ const SelectPage = () => {
                   <div className="item p-4 mx-3 my-4">
                     <h4>Even Numbers</h4>
                     <p>Displaying Even Numbers</p>
-                    <button className="btn btn-dark px-4 item-btn">Fix</button>
+                    <Link
+                      to="/even-numbers"
+                      className="btn btn-dark px-4 item-btn"
+                    >
+                      Fix
+                    </Link>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="item p-4 mx-3 my-4">
                     <h4>Prime Numbers</h4>
                     <p>Displaying Prime Numbers</p>
-                    <button className="btn btn-dark px-4 item-btn">Fix</button>
+                    <Link
+                      to="/prime-numbers"
+                      className="btn btn-dark px-4 item-btn"
+                    >
+                      Fix
+                    </Link>
                   </div>
                 </div>
                 <div className="col-sm-4">

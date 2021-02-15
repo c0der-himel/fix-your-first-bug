@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const OddNumbers = () => {
+const EvenNumbers = () => {
   const [numbers, setNumbers] = useState([]);
 
   const generateNumbers = () => {
@@ -15,20 +15,20 @@ const OddNumbers = () => {
     generateNumbers();
   }, []);
 
-  const oddNumber = (x) => {
-    if (x % 2 === 0) {
+  const evenNumber = (x) => {
+    if (x % 2 !== 0) {
       return true;
     }
     return false;
   };
 
   return (
-    <section className="OddNumbers">
+    <section className="EvenNumbers">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
             <div className="number-title">
-              <h1>Odd Numbers</h1>
+              <h1>Even Numbers</h1>
               <hr />
             </div>
           </div>
@@ -37,7 +37,7 @@ const OddNumbers = () => {
               {numbers.map((item, index) => (
                 <div
                   className={
-                    oddNumber(item)
+                    evenNumber(item)
                       ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-success'
                       : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black'
                   }
@@ -54,4 +54,4 @@ const OddNumbers = () => {
   );
 };
 
-export default OddNumbers;
+export default EvenNumbers;
