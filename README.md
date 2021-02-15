@@ -8,7 +8,7 @@ Before you start, go through this instruction below.
 
 This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
 
-<img align="right" width="300" src="./src/assets/images/README/fork.png" alt="fork repository" />
+<img align="right" width="300" src="./src/assets/images/README/fork1.png" alt="fork repository" />
 
 ## Fork this repository
 
