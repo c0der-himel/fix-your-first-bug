@@ -39,13 +39,26 @@ git clone https://github.com/c0der-himel/fix-your-first-bug.git
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the fix-your-first-bug repository on GitHub to your computer.
 
+## How to run
+
+1. Clone the forked repository:
+   ```sh
+   git clone https://github.com/c0der-himel/fix-your-first-bug.git
+   ```
+2. Go into cloned directory:
+   ```sh
+   cd fix-your-first-bug
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the app:
+   ```sh
+   npm start
+   ```
+
 ## Create a branch
-
-Change to the repository directory on your computer (if you are not already there):
-
-```
-cd fix-your-first-bug
-```
 
 Now create a branch using the `git checkout` command:
 

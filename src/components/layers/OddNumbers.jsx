@@ -27,7 +27,7 @@ const OddNumbers = () => {
             </div>
           </div>
           <div className="col-sm">
-            <div className="number-content">
+            <div className="number-content mt-4">
               {numbers.map((item, index) => (
                 <div
                   className={
@@ -40,6 +40,16 @@ const OddNumbers = () => {
                   {item}
                 </div>
               ))}
+            </div>
+            <div className="contribute text-center mt-5 pt-5">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="text-dark"
+                href="https://github.com/c0der-himel/fix-your-first-bug/blob/main/README.md"
+              >
+                <p className="lead">Want to fix ?</p>
+              </a>
             </div>
           </div>
         </div>
