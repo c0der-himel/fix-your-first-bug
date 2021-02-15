@@ -4,10 +4,6 @@
 
 Before you start, go through this instruction below.
 
-#### _Read this in [other languages](translations/Translations.md)._
-
-<kbd>[<img title="বাংলা" alt="বাংলা" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/bd.svg" width="22">](translations/README.bn.md)</kbd>
-
 # Your First Contribution
 
 This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
