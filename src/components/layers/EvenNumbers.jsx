@@ -33,7 +33,7 @@ const EvenNumbers = () => {
                   className={
                     evenNumber(item)
                       ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-dark text-light'
-                      : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black'
+                      : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-1 text-black-50'
                   }
                   key={index}
                 >
