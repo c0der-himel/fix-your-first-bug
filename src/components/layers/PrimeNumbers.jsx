@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
+import { primeNumber } from '../fix/numberTheory/primeNumbers';
 
-const OddNumbers = () => {
+const PrimeNumbers = () => {
   const [numbers, setNumbers] = useState([]);
 
   const generateNumbers = () => {
@@ -15,21 +16,13 @@ const OddNumbers = () => {
     generateNumbers();
   }, []);
 
-  // fix your first bug
-  const oddNumber = (x) => {
-    if (x % 2 === 0) {
-      return true;
-    }
-    return false;
-  };
-
   return (
-    <section className="OddNumbers">
+    <section className="PrimeNumbers">
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
             <div className="number-title">
-              <h1>Odd Numbers</h1>
+              <h1>Prime Numbers</h1>
               <hr />
             </div>
           </div>
@@ -38,8 +31,8 @@ const OddNumbers = () => {
               {numbers.map((item, index) => (
                 <div
                   className={
-                    oddNumber(item)
-                      ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-success'
+                    primeNumber(item)
+                      ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-dark text-light'
                       : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black'
                   }
                   key={index}
@@ -55,4 +48,4 @@ const OddNumbers = () => {
   );
 };
 
-export default OddNumbers;
+export default PrimeNumbers;

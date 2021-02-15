@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import EvenNumbers from './components/EvenNumbers';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
-import OddNumbers from './components/OddNumbers';
-import PrimeNumbers from './components/PrimeNumbers';
-import SelectPage from './components/SelectPage';
+import EvenNumbers from './components/layers/EvenNumbers';
+import Footer from './components/layers/Footer';
+import Home from './components/layers/Home';
+import Navbar from './components/layers/Navbar';
+import OddNumbers from './components/layers/OddNumbers';
+import PrimeNumbers from './components/layers/PrimeNumbers';
+import SelectPage from './components/layers/SelectPage';
 
 function App() {
   return (

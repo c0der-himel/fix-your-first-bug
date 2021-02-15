@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import bug from '../assets/images/bug.svg';
+import bug from '../../assets/images/bug.svg';
 
 const Navbar = () => {
   return (

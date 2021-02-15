@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { evenNumber } from '../fix/numberTheory/evenNumbers';
 
 const EvenNumbers = () => {
   const [numbers, setNumbers] = useState([]);
@@ -14,14 +15,6 @@ const EvenNumbers = () => {
   useEffect(() => {
     generateNumbers();
   }, []);
-
-  // fix your first bug
-  const evenNumber = (x) => {
-    if (x % 2 !== 0) {
-      return true;
-    }
-    return false;
-  };
 
   return (
     <section className="EvenNumbers">
@@ -39,7 +32,7 @@ const EvenNumbers = () => {
                 <div
                   className={
                     evenNumber(item)
-                      ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-success'
+                      ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-dark text-light'
                       : 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black'
                   }
                   key={index}
