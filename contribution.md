@@ -23,7 +23,7 @@ git clone "url you just copied"
 
 where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-<img align="right" width="300" src="./src/assets/images/README/clone2.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="./src/assets/images/README/clone2.png" alt="clone" />
 
 For example:
 
@@ -48,3 +48,49 @@ git checkout -b bug-fix
 ```
 
 (You can name the brach what ever you want. It doesn't matter.)
+
+## Find a Bug
+
+Go to the deployed website here: [link](https://relaxed-hopper-ce959a.netlify.app/)
+
+Click to Start Fixing, then select a category and click fix to see the where is the bug. If you find the bug then go to your code editor and open the project. Go to src directory then components directory then you will see a directory named bug, here you will see the bug category click on it here you will find the actual js file and lastly open it find fix the bug.
+
+<img align="right" width="300" src="./src/assets/images/README/bug.png" alt="bug" />
+
+## Create a issue
+
+Create a issue that you have find a bug.
+
+<img align="right" width="300" src="./src/assets/images/README/issue.png" alt="issue" />
+
+## After fixing the bug the commit those changes
+
+If you go to the project directory and execute the command `git status`, you'll see there are changes.
+
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "fixed my first bug"
+```
+
+## Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```
+git push origin <add-your-branch-name>
+```
+
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+
+## Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+
+<img style="float: right;" src="./src/assets/images/README/compare.png" alt="create a pull request" />
+
+Now submit the pull request.
+
+<img style="float: right;" src="./src/assets/images/README/pull.png" alt="submit pull request" />
+
+Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
