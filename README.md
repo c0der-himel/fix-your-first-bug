@@ -2,74 +2,28 @@
 
 > 🤩 A Open Source Project, to 🤝 help a newbie or beginner who wants to contribute in 🚀 Open Source but don't know how to do. Here he or she can start contributing as a demo contribution. 🤩
 
-Before you start, go through this instruction below.
-
-# Your First Contribution
-
-This project aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
-
-## Fork this repository
-
-<img align="right" width="300" src="./src/assets/images/README/fork1.png" alt="fork repository" />
-
-Fork this repository by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
-
-## Clone the repository
-
-<img align="right" width="300" src="./src/assets/images/README/clone1.png" alt="clone repository" />
-
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
-
-Open a terminal and run the following git command:
-
-```
-git clone "url you just copied"
-```
-
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
-
-<img align="right" width="300" src="./src/assets/images/README/clone2.png" alt="copy URL to clipboard" />
-
-For example:
-
-```
-git clone https://github.com/c0der-himel/fix-your-first-bug.git
-```
-
-where `this-is-you` is your GitHub username. Here you're copying the contents of the fix-your-first-bug repository on GitHub to your computer.
-
 ## How to run
 
-1. Clone the forked repository:
+1. Install NodeJS from:
+   [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+2. In the top-right corner of the page, click Fork. Create a local clone of your fork:
    ```sh
    git clone https://github.com/c0der-himel/fix-your-first-bug.git
    ```
-2. Go into cloned directory:
+3. Go into cloned directory:
    ```sh
    cd fix-your-first-bug
    ```
-3. Install dependencies:
+4. Install dependencies:
    ```sh
    npm install
    ```
-4. Run the app:
+5. Run the app:
    ```sh
    npm start
    ```
 
-## Create a branch
+## Contribution Guideline
 
-Now create a branch using the `git checkout` command:
-
-```
-git checkout -b your-new-branch-name
-```
-
-For example:
-
-```
-git checkout -b bug-fix
-```
-
-(You can name the brach what ever you want. It doesn't matter.)
+Pull requests are welcome.

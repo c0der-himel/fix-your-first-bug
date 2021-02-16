@@ -44,7 +44,7 @@ const PrimeNumbers = () => {
                 </div>
               ))}
             </div>
-            <div className="contribute text-center mt-5 pt-5">
+            <div className="contribute text-center mt-5">
               <a
                 target="_blank"
                 rel="noreferrer"
