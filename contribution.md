@@ -53,15 +53,15 @@ git checkout -b bug-fix
 
 Go to the deployed website here: [link](https://relaxed-hopper-ce959a.netlify.app/)
 
-Click to Start Fixing, then select a category and click fix to see the where is the bug. If you find the bug then go to your code editor and open the project. Go to src directory then components directory then you will see a directory named bug, here you will see the bug category click on it here you will find the actual js file and lastly open it find fix the bug.
-
 <img align="right" width="300" src="./src/assets/images/README/bug.png" alt="bug" />
+
+Click to Start Fixing, then select a category and click fix to see the where is the bug. If you find the bug then go to your code editor and open the project. Go to src directory then components directory then you will see a directory named bug, here you will see the bug category click on it here you will find the actual js file and lastly open it find fix the bug.
 
 ## Create a issue
 
-Create a issue that you have find a bug.
-
 <img align="right" width="300" src="./src/assets/images/README/issue.png" alt="issue" />
+
+Create a issue that you have find a bug.
 
 ## After fixing the bug the commit those changes
 
@@ -85,12 +85,12 @@ replacing `<add-your-branch-name>` with the name of the branch you created earli
 
 ## Submit your changes for review
 
-If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
-
 <img style="float: right;" src="./src/assets/images/README/compare.png" alt="create a pull request" />
 
-Now submit the pull request.
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
 <img style="float: right;" src="./src/assets/images/README/pull.png" alt="submit pull request" />
+
+Now submit the pull request.
 
 Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
