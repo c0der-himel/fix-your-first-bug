@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { primeNumber } from '../fix/numberTheory/primeNumbers';
+import { primeNumber } from '../../bugs/numberTheory/primeNumbers';
 
 const PrimeNumbers = () => {
   const [numbers, setNumbers] = useState([]);

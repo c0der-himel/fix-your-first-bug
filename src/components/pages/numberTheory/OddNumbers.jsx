@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { oddNumber } from '../fix/numberTheory/oddNumbers';
+import { oddNumber } from '../../bugs/numberTheory/oddNumbers';
 
 const OddNumbers = () => {
   const [numbers, setNumbers] = useState([]);

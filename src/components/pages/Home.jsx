@@ -10,7 +10,7 @@ const Home = () => {
             <div className="hero-content">
               <h3>Welcome to,</h3>
               <h1>Fix Your First Bug</h1>
-              <p>
+              <p className="lead">
                 🤩 An Open Source Project, to 🤝 help a newbie or beginner who
                 wants to contribute in 🚀 Open Source but don't know how to do.
                 Here he or she can start contributing as a demo contribution. 🤩
@@ -21,7 +21,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col-sm-6">
-            <div className="hero-img p-5">
+            <div className="hero-img">
               <img src={hero} alt="hero" />
             </div>
           </div>

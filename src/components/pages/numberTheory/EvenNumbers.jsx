@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { evenNumber } from '../fix/numberTheory/evenNumbers';
+import { evenNumber } from '../../bugs/numberTheory/evenNumbers';
 
 const EvenNumbers = () => {
   const [numbers, setNumbers] = useState([]);

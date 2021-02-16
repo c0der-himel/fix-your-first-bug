@@ -31,12 +31,12 @@ body {
 }
 
 .hero-content {
-  padding-top: 180px;
+  padding-top: 170px;
 }
 
 /* === Select Page === */
 .SelectPage {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .item {
@@ -51,15 +51,15 @@ body {
 
 /* === Odd Numbers === */
 .OddNumbers {
-  padding: 125px 0;
+  padding: 100px 0;
 }
 
 /* === Even Numbers === */
 .EvenNumbers {
-  padding: 125px 0;
+  padding: 100px 0;
 }
 
 /* === Prime Numbers === */
 .PrimeNumbers {
-  padding: 125px 0;
+  padding: 100px 0;
 }
