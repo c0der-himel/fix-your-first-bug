@@ -23,7 +23,12 @@ const OddNumbers = () => {
           <div className="col-sm-12">
             <div className="number-title">
               <h1>Odd Numbers</h1>
-              <p className="lead">Odd numbers are highlighted in Black color</p>
+              <p className="lead">
+                Odd numbers are highlighted in{' '}
+                <b>
+                  <u>Black color</u>
+                </b>
+              </p>
               <hr />
             </div>
           </div>
@@ -31,6 +36,9 @@ const OddNumbers = () => {
             <div className="number-content mt-4">
               {numbers.map((item, index) => (
                 <div
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title={oddNumber(item) ? 'Odd Number' : 'Not Odd Number'}
                   className={
                     oddNumber(item)
                       ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-dark text-light'

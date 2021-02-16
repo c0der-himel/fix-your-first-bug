@@ -24,7 +24,10 @@ const PrimeNumbers = () => {
             <div className="number-title">
               <h1>Prime Numbers</h1>
               <p className="lead">
-                Prime numbers are highlighted in Black color
+                Prime numbers are highlighted in{' '}
+                <b>
+                  <u>Black color</u>
+                </b>
               </p>
               <hr />
             </div>
@@ -33,6 +36,11 @@ const PrimeNumbers = () => {
             <div className="number-content mt-4">
               {numbers.map((item, index) => (
                 <div
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  title={
+                    primeNumber(item) ? 'Prime Number' : 'Not Prime Number'
+                  }
                   className={
                     primeNumber(item)
                       ? 'box rounded-3 d-inline-block m-2 px-4 py-2 border border-black bg-dark text-light'
