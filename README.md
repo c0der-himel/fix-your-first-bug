@@ -9,7 +9,7 @@
 
 2. In the top-right corner of the page, click Fork. Create a local clone of your fork:
    ```sh
-   git clone https://github.com/c0der-himel/fix-your-first-bug.git
+   git clone https://github.com/your-name/fix-your-first-bug.git
    ```
 3. Go into cloned directory:
    ```sh
