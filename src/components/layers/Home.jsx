@@ -11,9 +11,9 @@ const Home = () => {
               <h3>Welcome to,</h3>
               <h1>Fix Your First Bug</h1>
               <p>
-                A Open Source Project, to help a newbie or beginner who wants to
-                contribute in Open Source but don't know how to do it. Here he
-                or she can start contributing as a demo contribution.
+                🤩 An Open Source Project, to 🤝 help a newbie or beginner who
+                wants to contribute in 🚀 Open Source but don't know how to do.
+                Here he or she can start contributing as a demo contribution. 🤩
               </p>
               <Link to="/select" className="btn btn-dark px-4 py-2">
                 Start Fixing

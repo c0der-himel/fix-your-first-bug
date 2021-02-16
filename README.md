@@ -29,3 +29,7 @@
 Pull requests are welcome.
 
 Go through the [guideline](https://github.com/c0der-himel/fix-your-first-bug/blob/main/contribution.md) for contributing to this project.
+
+## Credit
+
+This project is inspired by [pledge](https://github.com/codeforcauseorg/pledge) project.
