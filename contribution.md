@@ -53,7 +53,7 @@ git checkout -b bug-fix
 
 Go to the deployed website here: [link](https://relaxed-hopper-ce959a.netlify.app/)
 
-<img align="right" width="300" src="./src/assets/images/README/bug.png" alt="bug" />
+<img align="right" width="150" src="./src/assets/images/README/bug.png" alt="bug" />
 
 Click to Start Fixing, then select a category and click fix to see the where is the bug. If you find the bug then go to your code editor and open the project. Go to src directory then components directory then you will see a directory named bug, here you will see the bug category click on it here you will find the actual js file and lastly open it find fix the bug.
 
