@@ -32,4 +32,4 @@ Go through the [guideline](https://github.com/c0der-himel/fix-your-first-bug/blo
 
 ## Credit
 
-This project is inspired by [pledge](https://github.com/codeforcauseorg/pledge) project.
+This project is inspired by project [pledge](https://github.com/codeforcauseorg/pledge).

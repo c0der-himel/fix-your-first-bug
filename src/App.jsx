@@ -6,6 +6,8 @@ import Navbar from './components/pages/Navbar';
 import OddNumbers from './components/pages/numberTheory/OddNumbers';
 import PrimeNumbers from './components/pages/numberTheory/PrimeNumbers';
 import SelectPage from './components/pages/SelectPage';
+import Contributors from './components/pages/Contributors';
+import PageNotFound from './components/pages/PageNotFound';
 import './App.css';
 
 function App() {
@@ -17,17 +19,23 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/select">
+          <Route exact path="/select">
             <SelectPage />
           </Route>
-          <Route path="/odd-numbers">
+          <Route exact path="/contributors">
+            <Contributors />
+          </Route>
+          <Route exact path="/odd-numbers">
             <OddNumbers />
           </Route>
-          <Route path="/even-numbers">
+          <Route exact path="/even-numbers">
             <EvenNumbers />
           </Route>
-          <Route path="/prime-numbers">
+          <Route exact path="/prime-numbers">
             <PrimeNumbers />
+          </Route>
+          <Route>
+            <PageNotFound />
           </Route>
         </Switch>
         <Footer />
