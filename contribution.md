@@ -33,6 +33,22 @@ git clone https://github.com/c0der-himel/fix-your-first-bug.git
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the fix-your-first-bug repository on GitHub to your computer.
 
+## Pull latest update
+
+For the latest update you have to add upstream
+
+```
+git remote add upstream https://github.com/c0der-himel/fix-your-first-bug.git
+```
+
+then pull command
+
+```
+git pull upstream main
+```
+
+and now you have the latest updated changes of the project.
+
 ## Create a branch
 
 Now create a branch using the `git checkout` command:

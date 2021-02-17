@@ -1,8 +1,5 @@
 // fix your first bug
 export const primeNumber = (x) => {
-  if(x===0 || x===1){
-    return false
-  }
   const n = Math.floor(Math.sqrt(x));
   for (let i = 2; i <= n; i++) {
     if (x % i === 0) {

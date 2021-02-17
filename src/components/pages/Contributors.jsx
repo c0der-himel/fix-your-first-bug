@@ -36,9 +36,9 @@ const Contributors = () => {
                 {data &&
                   data.map((contributor, index) => (
                     <div className="col-sm-3" key={index}>
-                      <div className="contributor-item p-3 mx-2 my-3">
+                      <div className="contributor-item px-2 pt-3 pb-4 mx-2 my-3">
                         <img
-                          className="img-fluid avatar my-3"
+                          className="img-fluid avatar my-2"
                           src={contributor.avatar_url}
                           alt="avatar_url"
                         />
